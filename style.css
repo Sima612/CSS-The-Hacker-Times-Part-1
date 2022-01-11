@@ -8,10 +8,22 @@ h1 {
     font-family: Abril Fatface;
     text-align: center;
 }
-ul li {
-    display: inline-block;
+nav > ul > li {
+    display: inline;
+}
+footer > ul > li {
+    display: inline;
+}
+footer {
+    border-top: 1px solid grey;
+}
+nav {
+    position: sticky;
+    top: 0;
     list-style: none;
-    margin: auto;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
 }
 a {
     text-decoration: none; 
