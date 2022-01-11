@@ -64,3 +64,35 @@ main img {
 .more-articles p {
     text-align: justify;
 }
+.three-more-articles-container {
+    display: grid;
+    padding: 20px;
+    margin: auto;
+    grid-template-columns: 200px 250px 200px;
+    grid-column-gap: 5px;
+    align-items: start;
+}
+.three-more-articles-container img:not(.article-4) {
+    width: 100%;
+}
+.three-more-articles-container section {
+    padding: 1em;
+    margin-top: -2em;
+}
+.three-more-articles-container p {
+    text-align: justify;
+    font-size: 15px;
+}
+div section.article-4 img {
+    height: 115px;
+}
+.footer-container {
+    padding: 0;
+    margin: auto;
+}
+.footer ul li a {
+    padding: 10px 0 0 auto;
+    margin-left: 35px;
+    text-align: center;
+    font-size: 10px;
+}
