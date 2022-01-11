@@ -72,7 +72,7 @@ main img {
     grid-column-gap: 5px;
     align-items: start;
 }
-.three-more-articles-container img:not(.article-4) {
+.three-more-articles-container img {
     width: 100%;
 }
 .three-more-articles-container section {
